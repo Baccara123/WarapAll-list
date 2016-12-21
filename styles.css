@@ -4,8 +4,8 @@ li {
 	position: relative;
 	display: table;
 	height: 48px;
-	float:left;width:25%
-	padding: 7px;
+	float:left;
+	width:25%;	
 	font-size:14px;
 	font-family: open_sansregular,Arial,Helvetica,sans-serif;
 }
@@ -14,10 +14,12 @@ h3{
 	vertical-align: top;
 	margin: 0;
 	font-size:16px;
+	padding: 0 7px;
 	}
 p{
 	display: table-cell ;
 	vertical-align: top;
+	padding: 0 7px;
 }
 h3 ~ p, .bottom p {
 	display: table-cell ;
