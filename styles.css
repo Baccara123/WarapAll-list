@@ -1,0 +1,28 @@
+li {
+	border: 1px solid #666;
+	box-sizing: border-box;
+	position: relative;
+	display: table;
+	height: 48px;
+	float:left;width:25%
+	padding: 7px;
+	font-size:14px;
+	font-family: open_sansregular,Arial,Helvetica,sans-serif;
+}
+h3{
+	display: table-row;
+	vertical-align: top;
+	margin: 0;
+	font-size:16px;
+	}
+p{
+	display: table-cell ;
+	vertical-align: top;
+}
+h3 ~ p, .bottom p {
+	display: table-cell ;
+	vertical-align: bottom;	
+}
+.textBottom p{
+	vertical-align: bottom;
+}
